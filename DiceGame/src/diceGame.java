@@ -46,6 +46,8 @@ public class diceGame {
             System.out.println("Your score is " + score2 + " My score is " + score1);
             if (score1 > score2) {
                 System.out.println("Luck was on my side");
+            } else if(score2==score1) {
+                System.out.println("It's... a TIE!");
             } else {
                 System.out.println("luck was on your side");
             }
@@ -76,6 +78,8 @@ public class diceGame {
             System.out.println("Twój wynik to " + score2 + " mój wynik " + score1);
             if (score1 > score2) {
                 System.out.println("Szczęscie mi sprzyjało.");
+            } else if(score2==score1) {
+                System.out.println("Mamy REMIS");
             } else {
                 System.out.println("Szczęście sprzyjało tobie.");
             }
